@@ -1,0 +1,1263 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  /*    color: #666;*/
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  color: #f0d758;
+  font-size: 2.5em;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Oswald", sans-serif;
+  color: #f0d758;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 5px;
+}
+
+h5 {
+  font-family: "Saira Condensed", sans-serif;
+  color: #231f20;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h6 {
+  font-family: "Oswald", sans-serif;
+  color: #565656;
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-family: "Saira Condensed", sans-serif;
+  line-height: 1.4em;
+  font-size: 1.3em;
+  color: #d3d3d3;
+}
+
+small {
+  font-family: "Saira Condensed", sans-serif;
+  line-height: 1.4em;
+  text-align: center;
+  padding: 1em;
+}
+.work_span {
+  text-decoration: line-through;
+}
+.ov_link {
+  text-decoration: none;
+  color: #f0d758;
+  cursor: pointer;
+}
+/*backgrounds------------------------------------------------------------------
+*/
+
+#space_bg {
+  background-image: url(../images/svg_bg/space_Large.svg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.clouds1_bg,
+.clouds2_bg {
+  background-repeat: repeat-y;
+  width: 100%;
+  max-width: 94.5em;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  /*    opacity: 0.70;*/
+}
+
+.clouds1_bg {
+  background-image: url(../images/svg_bg/clouds_space5.svg);
+}
+
+.clouds2_bg {
+  background-image: url(../images/svg_bg/clouds_sky5.svg);
+}
+
+#sky_bg {
+  background-image: url(../images/svg_bg/sky_large2.svg);
+  background-repeat: repeat-x;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  padding-bottom: 44px;
+}
+
+#groundtop_bg {
+  background-image: url(../images/svg_bg/ground_top5.svg);
+  /* background-repeat: repeat-y;*/
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+#cavetop_bg {
+  background-image: url(../images/svg_bg/cave_top.svg);
+  /* background-repeat: repeat-y;*/
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  height: 291px;
+}
+
+#footer_bg {
+  background-image: url(../images/svg_bg/ground_middle.svg);
+  background-repeat: repeat-x;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#goundbottom_bg {
+  background-image: url(../images/svg_bg/ground_bottom.svg);
+  background-repeat: repeat-x;
+  z-index: 2;
+  width: 100%;
+  height: 277px;
+  position: relative;
+}
+
+/*backgrounds------------------------------------------------------------------
+*/
+
+/*navbar------------------------------------------------------------------
+*/
+
+/*
+         Title: Responsive Menu With Media Queries (Checkbox Trick) - Using Only CSS3
+         Author: Caler Edwards
+         Date: Published on Apr 24, 2017
+         Availability: https: https://www.youtube.com/watch?v=xMTs8tAapnQ&start_radio=1&list=RDxMTs8tAapnQ
+*/
+
+.nav {
+  background-color: #f0d758;
+  font-family: "Oswald", sans-serif;
+  text-align: right;
+  height: 2.5em;
+  line-height: 0.269em;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  padding-left: 1%;
+}
+
+/*styles for font-size and spacing between fonts for desktop*/
+
+.menu {
+  margin: -0.8em 1.8em 0 0;
+  font-size: 1.3em;
+  line-height: 3.5em;
+}
+
+/*styles for font-size and spacing between fonts for dropdown*/
+
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: #2b2b2b;
+  margin: 0 0.6em;
+  line-height: 1.9em;
+  font-size: 1em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* styles for hamburger icon*/
+
+label {
+  margin: -1.2em 0 0 0;
+  font-size: 1.93em;
+  color: #2b2b2b;
+  line-height: 3.7em;
+  display: none;
+  width: 2.5em;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* styles for hamburger icon toggle off*/
+
+#toggle {
+  display: none;
+}
+
+/*navbar------------------------------------------------------------------
+*/
+
+/*this is for the home icon*/
+
+.icon1 {
+  width: 2.4em;
+  top: -3.44em;
+  position: relative;
+  z-index: 101;
+  left: 0.31em;
+  cursor: pointer;
+}
+
+/*this is for the home icon*/
+
+/*container1------------------------------------------------------------------
+*/
+
+.container1,
+.container2,
+.container3 {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  display: block;
+  max-width: 71.5em;
+  height: inherit;
+  padding-top: 3%;
+}
+
+/*grid1------------------------------------------------------------------
+*/
+
+/*span------------------------------------------------------------------
+*/
+
+.title1 {
+  background-color: #6d6c6c;
+  border: 11px solid #f0d758;
+  border-radius: 9px;
+  max-width: 39.5em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 23px;
+}
+
+/*span------------------------------------------------------------------
+*/
+
+/*grid1------------------------------------------------------------------
+*/
+
+.grid1,
+.grid2,
+.grid3 {
+  background-color: #6d6c6c;
+  border: 1em solid #f0d758;
+  border-radius: 9px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 50.5em;
+}
+
+.grid1 {
+  margin-top: 20px;
+}
+
+.grid2 {
+  margin-top: 200px;
+}
+
+.grid3 {
+  margin-top: 38px;
+}
+.grid1,
+.grid2,
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+}
+
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 1em;
+}
+
+.box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding: 1em;
+}
+
+.box3 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  padding: 1em;
+}
+
+.box4 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  padding: 0 1em;
+}
+
+/*grid1------------------------------------------------------------------
+*/
+
+/*grid4------------------------------------------------------------------
+*/
+
+.footer {
+  max-width: 100.5em;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+  /*    margin-top: 190px;*/
+}
+
+.f_box1 {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.f_box2 {
+  grid-column: 4/5;
+  grid-row: 1/4;
+}
+
+.f_nested {
+  display: grid;
+  background-color: #b25538;
+  border: 1em solid #69706a;
+  border-radius: 9px;
+}
+
+.f_nested {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+/*icons_footer------------------------------------------------------------------
+*/
+
+/*
+Title: Pure CSS Glowing Icon hover Effect - Css3 Hover Effects - CSS Glow Effect on Hover
+Author: Online Tutorials "youtube channel"
+Date: Published on Aug 2, 2017
+Availability: https://www.youtube.com/watch?v=Q1B-hZtzfA0
+*/
+
+.f_ul {
+  margin-left: 40%;
+  padding: 0;
+  display: flex;
+}
+
+.f_ul li {
+  list-style: none;
+  margin: 0 4px;
+}
+
+.f_ul li a {
+  position: relative;
+  display: block;
+  /*
+    width: 60px;
+    height: 60px;
+*/
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 44px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 23px;
+  color: #666;
+  transition: 0.5s;
+}
+
+.f_ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #703322;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.f_ul li a:hover:before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #703322;
+}
+
+.f_ul li a:hover {
+  color: #703322;
+  box-shadow: 0 0 5px #703322;
+  text-shadow: 0 0 5px #703322;
+}
+
+/*grid4------------------------------------------------------------------
+*/
+
+/*modal1------------------------------------------------------------------
+
+
+This is a modal gallery originally found from W3Schools. However the code itself has been heavily modified by myself. 
+
+        Title: How TO - Modal Images
+        Author:w3schools.com
+        Date: Published on Apr 24, 2017
+        Availability: https://www.w3schools.com/howto/howto_css_modal_images.asp
+
+*/
+
+.modal_1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal Content (image) */
+
+.modal-content-1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content-1,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+
+.close {
+  position: absolute;
+  top: 7%;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*
+ 100% Image Width on Smaller Screens 
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+*/
+
+/*modal1------------------------------------------------------------------
+*/
+
+/*modal2------------------------------------------------------------------
+This is a modal gallery originally found from W3Schools. However the code itself has been heavily modified by myself. 
+
+        Title: How TO - Modal Images
+        Author:w3schools.com
+        Date: Published on Apr 24, 2017
+        Availability: https://www.w3schools.com/howto/howto_css_modal_images.asp
+*/
+
+.modal_2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal Content (image) */
+
+.modal-content-2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content-2,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+
+.close {
+  position: absolute;
+  top: 7%;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*
+ 100% Image Width on Smaller Screens 
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+*/
+
+/*modal1------------------------------------------------------------------
+*/
+
+/*modal3------------------------------------------------------------------
+This is a modal gallery originally found from W3Schools. However the code itself has been heavily modified by myself. 
+
+        Title: How TO - Modal Images
+        Author:w3schools.com
+        Date: Published on Apr 24, 2017
+        Availability: https://www.w3schools.com/howto/howto_css_modal_images.asp
+*
+*/
+
+.modal_3 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal Content (image) */
+
+.modal-content-3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content-3,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+
+.close {
+  position: absolute;
+  top: 7%;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*
+ 100% Image Width on Smaller Screens 
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+*/
+
+/*modal1------------------------------------------------------------------
+*/
+
+/*img------------------------------------------------------------------
+*/
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+#g_img1 {
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#g_img1:hover {
+  transform: scale(1.05);
+}
+
+#g_img2 {
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#g_img2:hover {
+  transform: scale(1.05);
+}
+
+#g_img3 {
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#g_img3:hover {
+  transform: scale(1.05);
+}
+
+/*img FOR GRID 2------------------------------------------------------------------
+*/
+
+#g2_img1 {
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#g2_img1:hover {
+  transform: scale(1.05);
+}
+
+#g2_img2 {
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#g2_img2:hover {
+  transform: scale(1.05);
+}
+
+#g2_img3 {
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#g2_img3:hover {
+  transform: scale(1.05);
+}
+
+/*img------------------------------------------------------------------
+*/
+
+/*img FOR GRID 3------------------------------------------------------------------
+*/
+
+#g3_img1 {
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#g3_img1:hover {
+  transform: scale(1.05);
+}
+
+#g3_img2 {
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#g3_img2:hover {
+  transform: scale(1.05);
+}
+
+#g3_img3 {
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#g3_img3:hover {
+  transform: scale(1.05);
+}
+
+/*img------------------------------------------------------------------
+*/
+
+/*animation for workers------------------------------------------------------------------
+*/
+
+/*guardsman_l  animation------------------------------------------------------------------
+
+*/
+
+.guardsman_l {
+  max-width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+#Main_Body9 {
+  animation: mainBody9 infinite 1s;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes mainBody9 {
+  0% {
+    /* Start */
+    transform: translateY(0px);
+  }
+  100% {
+    /* End */
+    transform: translateY(23px) translateX(0px);
+  }
+}
+
+/*guardsman_l  animation------------------------------------------------------------------
+
+*/
+
+/*guardsman_r  animation------------------------------------------------------------------
+
+*/
+
+.guardsman_r {
+  max-width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+#Main_Body10 {
+  animation: mainBody10 infinite 1s;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes mainBody10 {
+  0% {
+    /* Start */
+    transform: translateY(0px);
+  }
+  100% {
+    /* End */
+    transform: translateY(23px) translateX(0px);
+  }
+}
+
+/*guardsman_r  animation------------------------------------------------------------------
+
+*/
+
+/*animation for workers------------------------------------------------------------------
+*/
+
+/*form------------------------------------------------------------------
+*/
+
+#form_container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 74.5em;
+  padding-top: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Table Styles */
+
+.tableOverflow {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+table,
+td,
+th {
+  border-style: solid;
+  border-width: 2px;
+  padding: 14px;
+}
+
+#content {
+  top: 19px;
+  position: relative;
+}
+
+/*for the form on contact page*/
+
+#form-content lable {
+  display: block;
+  color: red;
+}
+
+#form-content lable {
+  display: block;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type="submit"] {
+  background-color: #659257;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* LABEL Style */
+
+/* Global to all label elements */
+
+.formlabel {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  color: #f6e9e9;
+  line-height: 70px;
+  display: none;
+  width: 40px;
+  float: right;
+}
+
+/*  Only apply label style to form element*/
+
+form label {
+  font-size: 1.625em;
+  font-family: "Saira Condensed", sans-serif;
+  color: #69706a;
+  display: block;
+  float: left;
+  line-height: 34px;
+  width: 100px;
+}
+
+/*form------------------------------------------------------------------
+*/
+
+/*media querys------------------------------------------------------------------
+
+*/
+
+@media only screen and (max-width: 86.375em) {
+  h2,
+  h3,
+  h4 {
+    line-height: 40px;
+  }
+  /*grid 4------------------------------------------------------------------
+*/
+  .grid4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .f_box1 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+
+  .f_box2 {
+    grid-column: 3/4;
+    grid-row: 1/4;
+  }
+
+  .f_nested {
+    display: grid;
+    background-color: #b25538;
+    border: 1em solid #69706a;
+    border-radius: 9px;
+  }
+
+  .f_nested {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .f_ul {
+    margin: auto;
+  }
+
+  /*grid 4------------------------------------------------------------------
+*/
+}
+
+@media only screen and (max-width: 71.5em) {
+  /*backgrounds------------------------------------------------------------------
+*/
+  #cavetop_bg {
+    height: 180px;
+  }
+  #goundbottom_bg {
+    height: 185px;
+    background-size: cover;
+  }
+}
+
+/*backgrounds------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 58.75em) {
+  /*grid 4------------------------------------------------------------------
+*/
+  .grid4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+
+  .f_box1 {
+    /*    visibility: hidden;*/
+    display: none;
+  }
+
+  .f_box2 {
+    /*   visibility: hidden;*/
+    display: none;
+  }
+  .f_nested {
+    grid-column: 1/3;
+    grid-row: 1;
+    margin: 4%;
+  }
+  /*grid 4------------------------------------------------------------------
+*/
+}
+
+@media only screen and (max-width: 43.75em) {
+  .grid1,
+  .grid2,
+  .grid3 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  /*grid 1------------------------------------------------------------------
+*/
+  .box1 {
+    grid-column: 2/5;
+    grid-row: 1/2;
+  }
+
+  .box2 {
+    grid-column: 2/5;
+    grid-row: 2/3;
+  }
+
+  .box3 {
+    grid-column: 2/5;
+    grid-row: 3/4;
+  }
+  .box4 {
+    grid-column: 1/6;
+    grid-row: 4/5;
+  }
+  /*grid 1------------------------------------------------------------------
+*/
+}
+
+@media only screen and (max-width: 31.25em) {
+  .grid1,
+  .grid2,
+  .grid3,
+  .grid4 {
+    grid-template-columns: 1fr;
+  }
+  .grid2 {
+    margin-top: 295px;
+  }
+
+  label {
+    display: block;
+    width: 100%;
+  }
+  /*
+         Title: Responsive Menu With Media Queries (Checkbox Trick) - Using Only CSS3
+         Author: Caler Edwards
+         Date: Published on Apr 24, 2017
+         Availability: https: https://www.youtube.com/watch?v=xMTs8tAapnQ&start_radio=1&list=RDxMTs8tAapnQ
+*/
+  .menu {
+    background-color: #f0d758;
+    text-align: center;
+    width: 100%;
+    display: none;
+    margin: 0;
+    margin-left: -1%;
+  }
+  .menu a {
+    display: block;
+    border-top: 0.063em solid #2b2b2b;
+    border-bottom: 0.063em solid #2b2b2b;
+    margin: 0;
+  }
+  /* styles for hamburger icon toggle on*/
+  #toggle:checked + .menu {
+    display: block;
+  }
+  .menu a:link {
+  }
+  .menu a:visited {
+  }
+  .menu a:hover {
+    background-color: #f09a52;
+  }
+  .menu a:active {
+    background-color: #565656;
+  }
+  .icon1 {
+    display: none;
+  }
+  /*backgrounds------------------------------------------------------------------
+
+*/
+  .clouds1_bg,
+  .clouds2_bg {
+    background-image: none;
+  }
+}
+/*media querys------------------------------------------------------------------
+
+*/
